@@ -8,6 +8,7 @@ import javax.ws.rs.core.MediaType;
 @Path("/rest")
 public class Rest {
 	
+	// Easy method to test the API and server status
 	@POST
 	@Path("/isServerUp")
 	@Produces({MediaType.APPLICATION_JSON})
